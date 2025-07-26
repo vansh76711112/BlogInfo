@@ -3,7 +3,6 @@ import { assets, blogCategories } from '../../assets/assets';
 import Quill from 'quill';
 import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
-import { set } from 'mongoose';
 import { parse } from 'marked';
 const AddBlog = () => {
   const editorref = useRef(null);
